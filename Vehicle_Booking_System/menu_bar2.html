@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Menu Bar</title>
+        <style>
+            *{
+                margin:0px;
+                padding: 0px;
+            }
+            body{
+                margin-top: 20px;
+                margin-left: 20px;
+                background-image: url(1.jpg);
+                background-size: 100%;
+            }
+            /* Logo Styling 
+            .logo{
+                color: #ff7301;
+                font-size: 35px;
+                font-family: Arial;
+                padding-left: 20px;
+                float: left;
+                padding-top: 10px;
+                margin-top: 5px
+            } */
+            ul li a{
+                text-decoration: none;
+                color: rgb(255, 6, 6);
+            }
+            ul{
+                list-style-type: none;
+            }
+            ul li:hover{
+                background-color: rgba(229, 245, 6, 0.027);
+                color: rgb(253, 215, 0);
+
+            }
+            ul li{float:left;
+                    width: 200px;
+                    height: 40px;
+                    line-height: 40px ;
+                    background-color: rgb(251, 254, 255);
+                    text-align: center ;
+                    font-size: 22px;
+                    border-radius: 20px;
+                    opacity : 0.9;}
+            ul li ul{
+                display:none;
+            }
+            ul li:hover > ul {
+                display: block;
+            }
+            ul li ul li{
+                position: relative;
+            }
+            ul li ul li ul{
+                position: absolute;
+                margin-left: 200px;
+                top:0px;
+            }
+            ul li ul li a:hover{
+                color: black;
+            }
+            ul li a:hover{
+                color: black;
+            }
+            font{
+                font-family:Arial, Helvetica, sans-serif;
+                color: cyan;
+            }
+            .form{
+                    width: 250px;
+                    height: 100px;
+                    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+                    position: absolute;
+                    top: 250px;
+                    left: 1000px;
+                    transform: translate(0%,-5%);
+                    border-radius: 10px;
+                    padding: 25px;
+                }
+
+            .body{
+               background-image: url(Benz_GLA_3.jpg);
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+            }
+            .button{
+                background-color: rgb(218, 21, 7);
+                border-radius: 5px;
+                width: 75px;
+                height: 40px;
+            }
+            .col{
+                border-radius: 20px;
+                background-color: rgb(78, 165, 93);
+                background-image: url(BMD_F40_03.jpg);
+            }
+            
+            .info{
+                border-radius: 20px;
+            }
+
+            .rate{
+                background-color: aqua;
+                border-radius: 5px;
+                width: 75px;
+                height: 40px;
+            }
+
+
+        </style>
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    <body class="body">
+        <div class="cotainer"><b>
+        <marquee scrollamount="8" direction="right"><font size="8">🏍️ 🚲️ 🏎️VEHICLES BOOKING🏎️ 🚲️ 🏍️</font></marquee>
+        <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#" target="_blank">Bicycles</a>
+            <ul>
+                    <li><a href="E_cycle.html"><b>ELE.CYCLE</b></a></li>
+                    <li><a href="Folding_cycle.html"> FOLDING CYCLE</a></li>
+                    <li><a href="Hybrid_cycle.html"> HYBRID CYCLE</a></li>
+                    <li><a href="Mountain_cycle.html">MOUNTAIN CYCLE</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Bikes</a>
+            <ul>
+                <li><a href="#">Royal ENFIELD</a>
+                <ul>
+                    <li><a href="royal_enfield_350.html"><b> CLASSIC 350 </b></a></li>
+                    <li><a href="royal_enfield_hunter.html"> HUNTER</a></li>
+                    <li><a href="Royal_himalayan.html"> HIMALAYAN</a></li>
+                    <li><a href="royal_650.html"> GT 650</a></li>
+                </ul>
+                </li>
+                <li><a href="#"> BMW</a>
+                    <ul>
+                        <li><a href="BMW_310R.html" target="_blank"> G 310R</a></li>
+                        <li><a href="BMW_S1000RR.html"> S 1000 RR </a></li>
+                        <li><a href="BMW_M1000_RR.html"> M 1000 RR</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HERO</a>
+                    <ul>
+                        <li><a href="hero_glamour.html">HERO GLAMOUR</a></li>
+                        <li><a href="hero_splender.html">SPLENDOR_PLUS</a></li>
+                        <li><a href="hero_xtreme.html">XTREAME_160R </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">HONDA</a>
+                    <ul>
+                        <li><a href="hondacb.html">HONDA CB</a></li>
+                        <li><a href="Honda_hornet.html">HORNET</a></li>
+                        <li><a href="honda_shine.html">SHINE </a></li>
+                    </ul>
+                </li>
+                <li><a href="#">BAJAJ</a>
+                    <ul>
+                        <li><a href="Bajaj_pulsar125.html">PULSAR 125</a></li>
+                        <li><a href="Bajaj_NS_125.html">NS_125</a></li>
+                        <li><a href="Bajaj_400.html">DOMINAR 400 </a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+            
+            <li><a href="#"> CARS</a>
+                <ul>
+                <li><a href="benz_car.html">BENZ</a>
+                <!--<ul>
+                    <li><a href="/home/student/Desktop/MAIN/CARS/Benz_G_Class.html">BENZ G CLASS</a></li>
+                    <li><a href="/home/student/Desktop/MAIN/CARS/Benz_Glc.html"">BENZ GLC </a></li>
+                    <li><a href="/home/student/Desktop/MAIN/CARS/Benz GLA.html">BENZ GLA </a></li>
+                    <li><a href="/home/student/Desktop/MAIN/CARS/Benz  S-Class.html"> BENZ S CLASS</a></li>
+                </ul>-->
+                </li>
+                <li><a href="bmw_car.html"> BMW </a>
+                   <!-- <ul>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/BMW 740Li .html" target="_blank"> BMW 740LI</a></li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/BMW F40.html">BMW F40</a></li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/BMW 8 Series .html">BMW 8 SERIES</a></li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/BMW 4 Series .html"> BMW 4 SERIES</a></li>
+                    </ul>-->
+                </li>
+                <li><a href="ferrari_car.html">FERRAI</a>
+                   <!-- <ul>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/SF90 Spider.html">SF90 SPIDER</a></li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/Ferrari_Roma.html">ROMA</a></li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/Portofino M.html"></a>PORTOFINO M</li>
+                        <li><a href="/home/student/Desktop/MAIN/CARS/812 GTS.html">812 GTS</a></li>
+                      
+                    </ul>-->
+                </li>
+                 <li><a href="roles_roys_car.html">ROLLS_ROYCE</a></li>
+               
+            </ul>
+            </li>
+            
+            <li><a href="more.html" target="_blank">MORE</a></li>
+            <!--<li><a href="a.html" target="_blank">TO-DO LIST</a></li>-->
+            <li><a href="home.html" >LOG OUT</a></li>
+
+        </ul>
+        </b>
+        </div>
+
+    </p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <dl>
+                        <h2 style="background-color: rgba(189, 189, 82, 0.582);" class="info"><dt><b>“Yesterday is history, tomorrow is a mystery; Ride and live today”</b></dt></h2><br>
+                        <dd>
+                           <h3 style="background-color: rgba(104, 201, 104, 0.308);" class="info"> <b>Ambition is the path to success. Persistence is the vehicle you arrive in.</b></h3>
+                        </dd>
+                    </dl>
+                    <br>
+                    <b><h3 style="background-color: rgba(104, 201, 104, 0.308);" class="info">Our goals can only be reached through a vehicle of a plan, in which we must fervantly believe,and upon which we must vigorously act. There is no other route to success. </h3></b>
+                    <br><br><br><br>
+                   
+                    
+                </div>
+                <div class="col">
+                    
+                    <form action="booking.php" method="post" enctype="multipart/form-data">
+                      <b>  <h2> Booking</h2>
+                        <label for="text" >Name</label>
+                        <input type="text" name="uname" id="text" class="form-control" placeholder="Enter Name" required>
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" class="form-control" placeholder="Enter Email" required>
+                        <label for="phone">Mobile</label>
+                        <input type="tel" class="form-control" name="phone" placeholder="Enter Phone Number" required><br>
+                        <label for="bike" list="suggest">Vehicle</label><br>
+                        <input type="text" list="suggest" id="bike" name="vehicle" placeholder="Choose Vehicle" required><br>
+                        <datalist id="suggest">
+                            <option>CAR</option>
+                            <option>BIKE</option>
+                            <option>BYCYCLE</option>
+                        </datalist><br>
+                        <label for="bikee" list="suggest">SELECT MODEL: </label><br>
+                        <input type="text" list="suggests" id="bikee" name="model" placeholder="Choose Vehicle Model" required><br>
+                        <datalist id="suggests">
+                            <option>BENZ G CLASS</option>
+                            <option>BENZ GLC</option>
+                            <option>BENZ GLA </option>
+                            <option>BENZ S-CLASS</option>
+                            <option>BMW 740Li</option>
+                            <option>BMW F40</option>
+                            <option>BMW 8 SERIES</option>
+                            <option>BMW 4 SERIES</option>
+                            <option>SF190 SPIDER</option>
+                            <option>ROMA</option>
+                            <option>PORTOFINO M</option>
+                            <option>812 GTS</option>
+                            <option>ROYALBULLET 350</option>
+                            <option>GHOST</option>
+                            <option>GT 650</option>
+                            <option>HUNTER</option>
+                            <option>HIMALAYAN</option>
+                            <option>G 310 R</option>
+                            <option>S1000 RR</option>
+                            <option>M 1000 RR</option>
+                            <option>HERO GLAMOUR</option>
+                            <option>PHANTAM</option>
+                            <option>SPLENDOR PLUS</option>
+                            <option>XTREAME_160R</option>
+                            <option>DAWN</option>
+                            <option>WRAITH</option>
+                            <option>HORNET</option>
+                            <option>SHINE</option>
+                            <option>PULSAR 125</option>
+                            <option>NS-125</option>
+                            <option>DOMINAR 400</option>
+                            <option>E-Cycle</option>
+                            <option>Folding</option>
+                            <option>Hybrid</option>
+                            <option>Gravel</option>
+                            <option>Mountain</option>
+                        </datalist><br>
+                        <button class="btn btn-success">Submit</button>
+                        <button type="reset" class="button">Reset</button><br><br></b>
+                        <button class="rate"><a href="rating.html" target="_blank">Rate Us</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        
+    
+
+    </body>
+</html>
+
+
+
+
+
+
+
+

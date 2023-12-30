@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+</head>
+<style>
+    .col{
+        padding-left: 500px;
+        padding-top: 50px;
+        padding-right: 500px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .b{
+        background-image: url(BMW_F40_01.jpg);
+        background-size: cover;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        color:darkorange;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .all{
+        background-image: url(Ferrari_sf90_2.jpg);
+        background-size: cover;
+    }
+    .b input{
+        border-radius: 8px;
+    }
+    .b button{
+        border-radius: 10px;
+        height: 30px;
+        width: 100px;
+        background-color: green;
+    }
+    #b{
+        background-color: red;
+    }
+    #c{
+        background-color: aqua;
+     
+    }
+    a{
+        text-decoration: none;
+    }
+    .b textarea{
+        border-radius: 20px;
+    }
+    .bimg{
+        background-image:url(a.jpg);
+        background-size: cover;
+    }
+</style>
+<body class="all">
+    <div class="col">          
+        <form action="request.php" method="post" enctype="multipart/form-data" class="b">
+          <b>  <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Requesting a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vehicle</h2>
+            <label for="text" >&nbsp;&nbsp;&nbsp;&nbsp;Name</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="uname" id="text" class="form-control" placeholder="Enter Name" required><br><br>
+            <label for="mail">&nbsp;&nbsp;&nbsp;&nbsp;Email</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="mail" class="form-control" placeholder="Enter Email" required><br><br>
+            <label for="phone">&nbsp;&nbsp;&nbsp;&nbsp;Mobile</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" class="form-control" name="phone" placeholder="Enter Phone Number" required><br><br>
+            <label for="bike" list="suggest">&nbsp;&nbsp;&nbsp;&nbsp;Vehicle (BIKES , BYCYCLES & &nbsp;&nbsp;CARS &nbsp;&nbsp;ONLY)</label><br><br>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" list="suggest" id="bike" name="vehicle" placeholder="Choose Vehicle"  required><br><br>
+            <datalist id="suggest">
+                <option>CAR</option>
+                <option>BIKE</option>
+                <option>BICYCLE</option>
+            </datalist><br>
+            <label for="">&nbsp;&nbsp;&nbsp;&nbsp;Model</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="bikee" name="model" placeholder="Enter Model" autocomplete="off" required><br><br>
+            &nbsp;&nbsp;<button type="submit">Submit</button>&nbsp;&nbsp;
+            <button type="reset" class="button" id="b">Reset</button>
+            <button type="submit" class="button" id="c"><a href="more.html">Home</a></button><br><br>
+            </b>
+        </form>
+    </div>
+</body>
+</html>
