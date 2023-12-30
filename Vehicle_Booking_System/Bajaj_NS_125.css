@@ -1,0 +1,67 @@
+.home{
+   
+    background-image: url(NS125_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 20px;
+}
+
+#hb a{
+    text-decoration: none;
+    
+}
+
+.home button{
+    height: 30px;
+    width: 80px;
+}
+.home img{
+    padding-top: -10px;
+    padding-left: 1000px;
+}
+#hb{
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+#hb button{
+    background-color:rgb(235, 39, 13) ;
+    height: 40px;
+    width: 90px;
+    border: 20px;
+    border-radius: 18px;
+    
+}
+#h{
+    padding-top: 80px;
+    padding-left:800px ;
+    font-size: 80px;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bt{
+    padding-top: 20px;
+    padding-left: 600px;
+
+}
+#bt button{
+    background-color:rgb(66, 226, 17) ;
+    height: 50px;
+    width: 130px;
+    border: 20px;
+    border-radius: 18px;
+    
+}
+#data{
+    line-height: 30px;
+    word-spacing: 2px;
+    padding-left: 200px;
+    padding-right: 340px;
+    
+}
+.info{
+    background-image: url(NS125_1.jpg);
+    background-size: cover;
+    border-radius: 30px;   
+    color: rgb(229, 253, 9); 
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="roles_roys_car.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav> 
+            <img src="Roles_Roys_logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="models"> GHOST</a></li>
+                <li><a href="#" id="model3"> Phantam </a></li>
+                <li><a href="#" id="modelx"> Dawn </a></li>
+                <li><a href="#" id="modely"> Wraith</a></li>
+            </ul>
+            <a href="home.html" class="btn">Home</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="time">10s</h2>
+                <p id="speed">100 kmph</p>
+            </div>
+            <div>
+                <h2 id="b">155 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="c">5250 rpm</h2>
+                <p>Max Range</p>
+            </div>
+            <div>
+                <h2>PRICE</h2>
+                <p id="d">2.5cr Rs</p>
+            </div>
+            <div>
+                <h2>Milage</h2>
+                <p id="e">8.4kmpl</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div> <h2 id="model">GHOST</h2></div>
+        </div>
+    </div>
+    <script>
+
+        var header=document.getElementById("header");
+        var ms=document.getElementById("models");
+        var m3=document.getElementById("model3");
+        var mx=document.getElementById("modelx");
+        var my=document.getElementById("modely");
+        var model=document.getElementById("model");
+        var time=document.getElementById("time");
+        var speed=document.getElementById("speed");
+        var b=document.getElementById("b");
+        var c=document.getElementById("c");
+        var d=document.getElementById("d");
+        var e=document.getElementById("e");
+
+        ms.onclick = function(){
+                header.style.backgroundImage="url(Roles_royce_1.jpg)";
+                model.innerHTML ="GHOST";
+                time.innerHTML ="10s";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="155 mph";
+                c.innerHTML="5250 rpm";
+                d.innerHTML="2.5Cr Rs";
+                e.innerHTML="8.4kmpl";
+        }
+
+        m3.onclick = function(){
+                header.style.backgroundImage="url(Rolls_Royce_Phantom_2.jpg)";
+                model.innerHTML ="Phantom";
+                time.innerHTML="8sec";
+                speed.innerHTML="100kmph";
+                b.innerHTML="155kmph";
+                c.innerHTML="6000 rpm";
+                d.innerHTML="10cr Rs";
+                e.innerHTML="9.8kmpl";
+        }
+
+        mx.onclick = function(){
+                header.style.backgroundImage="url(dawn3.jpg)";
+                model.innerHTML ="Dawn";
+                time.innerHTML ="12.5sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="155mph";
+                c.innerHTML="6598rpm";
+                d.innerHTML="7cr Rs";
+                e.innerHTML="9.8kmpl";
+        }
+
+        my.onclick = function(){
+                header.style.backgroundImage="url(Roles_royce_wraith.jpg)";
+                model.innerHTML ="Wraith";
+                time.innerHTML ="11sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="250mph";
+                c.innerHTML="6592rpm";
+                d.innerHTML="5Cr Rs";
+                e.innerHTML="8kmpl";
+        }
+
+
+    </script>
+</body>
+</html>

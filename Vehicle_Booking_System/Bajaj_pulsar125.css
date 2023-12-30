@@ -1,0 +1,64 @@
+.home{
+   
+    background-image: url(Pulsar_12502.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 20px;
+}
+.home button{
+    height: 30px;
+    width: 80px;
+}
+.home img{
+    padding-top: -10px;
+    padding-left: 1000px;
+}
+#hb{
+    padding-top: 0px;
+    padding-left: 20px;
+   
+}
+#hb button{
+    background-color:rgb(224, 215, 214) ;
+    height: 40px;
+    width: 90px;
+    border: 20px;
+    border-radius: 18px;
+    
+}
+#h{
+    padding-top: 80px;
+    padding-left:800px ;
+    font-size: 80px;
+    color: rgb(248, 152, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bt{
+    padding-top: 20px;
+    padding-left: 600px;
+
+}
+#bt button{
+    background-color:rgb(66, 226, 17) ;
+    height: 50px;
+    width: 130px;
+    border: 20px;
+    border-radius: 18px;
+    
+}
+#data{
+    line-height: 40px;
+    word-spacing: 2px;
+    padding-left: 200px;
+    padding-right: 340px;
+    
+}
+.info{
+    background-image: url(Pulsar_125_2.jpg);
+    background-size: cover;
+    border-radius: 30px;   
+    color: rgb(247, 91, 91);
+    font-size: 20px;
+    
+
+}

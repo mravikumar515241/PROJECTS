@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benz Cars</title>
+    <link rel="stylesheet" href="benz_car.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav> 
+            <img src="benz_logo_3.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="models"> G-Class </a></li>
+                <li><a href="#" id="model3"> Benz GLC </a></li>
+                <li><a href="#" id="modelx"> Benz GLA </a></li>
+                <li><a href="#" id="modely"> S-Class</a></li>
+            </ul>
+            <a href="menu_bar2.html" class="btn">Home</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="time">11 s</h2>
+                <p id="speed">100 kmph</p>
+            </div>
+            <div>
+                <h2 id="b">220 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="c">5000 rpm</h2>
+                <p>Max Range</p>
+            </div>
+            <div>
+                <h2>PRICE</h2>
+                <p id="d">2cr Rs</p>
+            </div>
+            <div>
+                <h2>Milage</h2>
+                <p id="e">8.13kmpl</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div> <h2 id="model">G-Class</h2></div>
+        </div>
+    </div>
+    <script>
+
+        var header=document.getElementById("header");
+        var ms=document.getElementById("models");
+        var m3=document.getElementById("model3");
+        var mx=document.getElementById("modelx");
+        var my=document.getElementById("modely");
+        var model=document.getElementById("model");
+        var time=document.getElementById("time");
+        var speed=document.getElementById("speed");
+        var b=document.getElementById("b");
+        var c=document.getElementById("c");
+        var d=document.getElementById("d");
+        var e=document.getElementById("e");
+
+        ms.onclick = function(){
+                header.style.backgroundImage="url(benz_g_class_2.jpg)";
+                model.innerHTML ="G-Class";
+                time.innerHTML ="11 s";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="220mph";
+                c.innerHTML="5000 rpm";
+                d.innerHTML="2Cr Rs";
+                e.innerHTML="8.13kmpl";
+        }
+
+        m3.onclick = function(){
+                header.style.backgroundImage="url(Benz_glc_3.jpg)";
+                model.innerHTML =" Benz GLC ";
+                time.innerHTML="8sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="215 kmph";
+                c.innerHTML="3800 rpm";
+                d.innerHTML="67L Rs";
+                e.innerHTML="12.74kmpl";
+        }
+
+        mx.onclick = function(){
+                header.style.backgroundImage="url(Benz_GLA_6.jpg)";
+                model.innerHTML =" Benz GLA ";
+                time.innerHTML ="9.5sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="205mph";
+                c.innerHTML="3000 rpm";
+                d.innerHTML="48L Rs";
+                e.innerHTML="17.4kmpl";
+        }
+
+        my.onclick = function(){
+                header.style.backgroundImage="url(Benz_s_class.jpg)";
+                model.innerHTML ="S-Class";
+                time.innerHTML ="12sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="250mph";
+                c.innerHTML="6000 rpm";
+                d.innerHTML="1.60Cr Rs";
+                e.innerHTML="12.8kmpl";
+        }
+
+
+    </script>
+</body>
+</html>
