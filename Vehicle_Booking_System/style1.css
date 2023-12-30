@@ -1,0 +1,471 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+} 
+
+/*--------------------------------------------*/
+
+.wrapper
+{
+    height:600px;
+    width:1350px;
+    background-color: red;
+}
+header
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head18.png");
+    /*color:black;*/
+}
+section
+{
+    height: 550px;
+    width:1350px;
+    background-color:rgb(196, 236, 255);
+}
+footer
+{
+    height: 80px;
+    width:1350px;
+   /* background-color:#000;*/
+    background-image: url("head18.png");
+
+}
+.logo
+{
+    float: left;
+    padding-left:20px;
+}
+.logo img
+{
+    padding-left: 100px;
+}
+li a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav
+{
+    float: right;
+    word-spacing: 30px;
+    line-height: 50px;
+    padding: 20px;
+}
+nav li
+{
+    display: inline-block;
+}
+section .sec-img
+{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("images/lib30.png");
+}
+.box
+{
+    height: 150px;
+    width: 400px;
+    background-color: #afca84;
+    margin: 60px auto;
+    opacity: .7;
+    color:rgb(235, 110, 28);
+}
+
+/*-------------------studentlogin--------------------*/
+.head
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head21.png");
+    /*color:black;*/
+}
+/*------studenthome.php-----*/
+.head2
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head9.png");
+    /*color:black;*/
+}
+/*------books.php-----*/
+.head3
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head32.png");
+    /*color:black;*/
+}
+/*-----stud-book-request---*/
+.head4
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head28.png");
+    /*color:black;*/
+}
+
+/*----feedback.php-----*/
+.head5
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head31.png");
+    /*color:black;*/
+}
+/*----studentlogin.php---background image---*/
+.log1
+{
+    height: 550px;
+    width: 1380px;
+    margin-top: 0px;
+    background-image: url("lib3.png");
+    background-attachment: fixed;
+}
+.box1
+{
+    height: 330px;
+    width:450px;
+    background-color: #000;
+    margin: 70px auto;
+    opacity: .6;
+    color: beige;
+    padding: 20px;
+}
+input
+{
+    border-radius: 20px;
+}
+form .form1
+{
+    margin: auto 115px;
+}
+section .sec2-img
+{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("lib22.png");
+}
+
+/*-------------------register----------------*/
+.reg
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image:url("reg.png") ;
+    background-attachment: fixed;
+}
+.box2
+{
+    height: 500px;
+    width:450px;
+    background-color: #000;
+    margin: 70px auto;
+    opacity: .6;
+    color: beige;
+    padding: 20px;
+}
+form .form2
+{
+    margin:auto 115px;
+}
+/*-------------------admin login--------------------*/
+.head1
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head22.png");
+    /*color:black;*/
+}
+/*---adminhome.php----*/
+.head6
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head19.png");
+    /*color:black;*/
+}
+/*----admin-book-update.php---*/
+.head7
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head29.png");
+    /*color:black;*/
+}
+/*---adminbooks2.php---*/
+.head8
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head32.png");
+    /*color:black;*/
+}
+/*----admin_requested_books.php...*/
+.head9
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head15.png");
+    /*color:black;*/
+}
+/*---studcomment.php---*/
+.head11
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head10.png");
+    /*color:black;*/
+}
+/*--------------help.php-------------*/
+.head12
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head29.png");
+
+}
+
+/*----studinfo.php---*/
+.head10
+{
+    height: 80px;
+    width:1350px;
+   /* background-color: black;*/
+    background-image: url("head25.png");
+    /*color:black;*/
+}
+/*----adminlogin.php---background image--*/
+/*----studentlogin.php---background image---*/
+.log5
+{
+    height: 550px;
+    width: 1380px;
+    margin-top: 0px;
+    background-image: url("lib17.png");
+    background-attachment: fixed;
+}
+
+
+/*----studinfo.php---*/
+
+
+.log3
+{
+    height: 550px;
+    width: 1380px;
+    margin-top: 0px;
+    background-image: url("lib3.png");
+}
+.box1
+{
+    height: 330px;
+    width:450px;
+    background-color: #000;
+    margin: 70px auto;
+    opacity: .6;
+    color: beige;
+    padding: 20px;
+}
+input
+{
+    border-radius: 20px;
+}
+form .form3
+{
+    margin: auto 115px;
+}
+/*---adminhome.php---imagebackground--*/
+section .sec4-img
+{
+    height: 90px;
+    margin-top: 0px;
+    background-image: url("Ferrari_sf90_2.jpg");
+}
+
+.log4
+{
+    height: 550px;
+    width: 1380px;
+    margin-top: 0px;
+    background-image: url("lib.png");
+}
+
+/*-------------------admin register----------------*/
+section .sec3-img
+{
+    height: 550px;
+    margin-top: 0px;
+    background-image: url("lib7.png");
+}
+.reg4
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image:url("lib32.png") ;
+}
+.box4
+{
+    height: 500px;
+    width:450px;
+    background-color: #000;
+    margin: 0px auto;
+    opacity: .6;
+    color: beige;
+    padding: 80px;
+}
+form .form4
+{
+    margin:auto 80px;
+}    
+.reg2
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image:url("lib12.png") ;
+    
+}
+.box2
+{
+    height: 500px;
+    width:450px;
+    background-color: #000;
+    margin: 70px auto;
+    opacity: .6;
+    color: beige;
+    padding: 20px;
+}
+form .form2
+{
+    margin:auto 115px;
+}
+.box3
+{
+    height: 360px;
+    width:450px;
+    background-color: #000;
+    margin: 0px auto;
+    opacity: .6;
+    color: beige;
+    padding: 20px;
+}
+/*--------------feedback student-----*/
+.feedback
+{
+    height: 650px;
+    margin-top: 0px;
+    background-image:url("lib20.png") ;
+    background-attachment:fixed;
+}
