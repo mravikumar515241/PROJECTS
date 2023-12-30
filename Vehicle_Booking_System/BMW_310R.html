@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikes</title>
+    <link rel="stylesheet" href="BMW_310R.css">
+</head>
+<body>
+    
+<div class="container" id="bike">
+    <nav>
+        <img src="logo.png" class="logo">
+        <a href="menu_bar2.html" class="btn">Home</a>
+    </nav>
+    <div class="content">
+    <h2>THE BMW</h2>
+    <h1>G 310 R </h1>
+    <p>
+        G 310 R
+        
+        Starting from ₹ 2,70,000.00
+        
+        
+        BMW G 310 R - 300CC Roadster Bikes in India
+        Challenge your city
+        
+        
+        
+        
+        Gear up with excitement to witness adventures in its true form. BMW G 310 R is all set to treat you with its charm. Every day is a fresh chance to attempt something different - with the BMW G 310 R. The whole set includes everything you need, including a contemporary daylight running light. Whether you're going to work, to an appointment, or out of town, the optimised engine with Ride by Wire and anti-hopping clutch provides an intuitive, nimble ride. Experience the G 310 R's manoeuvrability, ease of handling, and sportiness on a daily basis, and utilise it to push to new limits.</p>
+    <h3>Choose your color</h3>
+    <div class="color-select">
+    <div id="red"></div>
+    <div id="blue"></div>
+    <div id="black"></div>
+    </div>
+</div>
+
+</div>
+<script>
+    let redBtn = document.getElementById("red");
+    let blueBtn = document.getElementById("blue");
+    let blackBtn = document.getElementById("black");
+    let bike = document.getElementById("bike");
+
+    redBtn.onclick = function(){
+            bike.style.backgroundImage = "url(BMW1.png)";
+
+    }
+
+    blueBtn.onclick = function(){
+            bike.style.backgroundImage = "url(BMW2.png)";
+
+    }
+
+    blackBtn.onclick = function(){
+            bike.style.backgroundImage = "url(BMW3.png)";
+
+    }
+    
+    
+</script>
+</body>
+</html>
