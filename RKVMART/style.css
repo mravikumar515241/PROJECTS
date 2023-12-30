@@ -1,0 +1,48 @@
+body{
+  
+  background: radial-gradient(white, whitesmoke);
+  
+}
+
+img{
+    border-radius: 30px;
+}
+
+.onboard{
+    margin-left: 9rem;
+    margin-top: 3rem;
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*input boxes styling*/
+
+.box {
+    border: 1px solid #ced4da;
+    outline: 0;
+    transition: border .15s, box-shadow .15s;
+  }
+  
+  .box:focus {
+    border: 1px solid #505050;
+    
+  }
+  
+  
+  .box {
+    border-radius: 5px;
+    
+    box-sizing: border-box;
+    padding: 1.5rem;
+    
+    width: 100%;
+  }
+  
+ .bt {
+    background-color: black;
+ }
+ .bt:hover {
+    background:  	black;
+  }
