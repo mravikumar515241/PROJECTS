@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="ferrari_car.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav> 
+            <img src="ferrari_logo_new.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="models"> 812 </a></li>
+                <li><a href="#" id="model3"> Roma </a></li>
+                <li><a href="#" id="modelx"> Porto </a></li>
+                <li><a href="#" id="modely"> SF90</a></li>
+            </ul>
+            <a href="home.html" class="btn">Home</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="time">10 s</h2>
+                <p id="speed">100 kmph</p>
+            </div>
+            <div>
+                <h2 id="b">211 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="c">6000 rpm</h2>
+                <p>Max Range</p>
+            </div>
+            <div>
+                <h2>PRICE</h2>
+                <p id="d">5.20cr Rs</p>
+            </div>
+            <div>
+                <h2>Milage</h2>
+                <p id="e">6.7kmpl</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div> <h2 id="model">812</h2></div>
+        </div>
+    </div>
+    <script>
+
+        var header=document.getElementById("header");
+        var ms=document.getElementById("models");
+        var m3=document.getElementById("model3");
+        var mx=document.getElementById("modelx");
+        var my=document.getElementById("modely");
+        var model=document.getElementById("model");
+        var time=document.getElementById("time");
+        var speed=document.getElementById("speed");
+        var b=document.getElementById("b");
+        var c=document.getElementById("c");
+        var d=document.getElementById("d");
+        var e=document.getElementById("e");
+
+        ms.onclick = function(){
+                header.style.backgroundImage="url(ferrari_812_3.jpg)";
+                model.innerHTML ="812";
+                time.innerHTML ="10 s";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="211mph";
+                c.innerHTML="6000rpm";
+                d.innerHTML="5.20Cr Rs";
+                e.innerHTML="6.7kmpl";
+        }
+
+        m3.onclick = function(){
+                header.style.backgroundImage="url(Ferrari_roma_2.jpg)";
+                model.innerHTML ="Roma";
+                time.innerHTML="9sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="199mph";
+                c.innerHTML="5250rpm";
+                d.innerHTML="3.75cr Rs";
+                e.innerHTML="8.9kmpl";
+        }
+
+        mx.onclick = function(){
+                header.style.backgroundImage="url(porto_3.webp)";
+                model.innerHTML ="Porto";
+                time.innerHTML ="11sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="250mph";
+                c.innerHTML="5000 rpm";
+                d.innerHTML="3.50cr Rs";
+                e.innerHTML="8.8kmpl";
+        }
+
+        my.onclick = function(){
+                header.style.backgroundImage="url(Ferrari_sf90_2.jpg)";
+                model.innerHTML ="SF90";
+                time.innerHTML ="12.5 sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="340mph";
+                c.innerHTML="5950 rpm";
+                d.innerHTML="7.5Cr Rs";
+                e.innerHTML="16kmpl";
+        }
+
+
+    </script>
+</body>
+</html>

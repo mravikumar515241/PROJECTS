@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="carsoriginal.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav> 
+            <img src="logo.png" alt="" class="logo">
+            <ul>
+                <li><a href="#" id="models"> 740Li </a></li>
+                <li><a href="#" id="model3"> F40 </a></li>
+                <li><a href="#" id="modelx"> 420 i </a></li>
+                <li><a href="#" id="modely"> G 14</a></li>
+            </ul>
+            <a href="home.html" class="btn">Home</a>
+        </nav>
+
+        <div class="info">
+            <div>
+                <h2 id="time">3.8 s</h2>
+                <p id="speed">100 kmph</p>
+            </div>
+            <div>
+                <h2 id="b">250 mph</h2>
+                <p>Top Speed</p>
+            </div>
+            <div>
+                <h2 id="c">5500 rpm</h2>
+                <p>Max Range</p>
+            </div>
+            <div>
+                <h2>PRICE</h2>
+                <p id="d">1.22cr Rs</p>
+            </div>
+            <div>
+                <h2>Milage</h2>
+                <p id="e">12kmpl</p>
+            </div>
+            <div class="line">
+
+            </div>
+            <div> <h2 id="model">BMW 740 Li</h2></div>
+        </div>
+    </div>
+    <script>
+
+        var header=document.getElementById("header");
+        var ms=document.getElementById("models");
+        var m3=document.getElementById("model3");
+        var mx=document.getElementById("modelx");
+        var my=document.getElementById("modely");
+        var model=document.getElementById("model");
+        var time=document.getElementById("time");
+        var speed=document.getElementById("speed");
+        var b=document.getElementById("b");
+        var c=document.getElementById("c");
+        var d=document.getElementById("d");
+        var e=document.getElementById("e");
+
+        ms.onclick = function(){
+                header.style.backgroundImage="url(BMW_740_LI_7.jpg)";
+                model.innerHTML ="BMW 740 Li";
+                time.innerHTML ="1.9 s";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="250mph";
+                c.innerHTML="5500 rpm";
+                d.innerHTML="1.22Cr Rs";
+                e.innerHTML="12kmpl";
+        }
+
+        m3.onclick = function(){
+                header.style.backgroundImage="url(F40_1.jpg)";
+                model.innerHTML ="BMW F40";
+                time.innerHTML="10sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="217 kmph";
+                c.innerHTML="6500 rpm";
+                d.innerHTML="70L Rs";
+                e.innerHTML="23kmpl";
+        }
+
+        mx.onclick = function(){
+                header.style.backgroundImage="url(BMW_420i_2.jpg)";
+                model.innerHTML ="BMW 420 i";
+                time.innerHTML ="8sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="147kmph";
+                c.innerHTML="4500 rpm";
+                d.innerHTML="55L Rs";
+                e.innerHTML="10kmpl";
+        }
+
+        my.onclick = function(){
+                header.style.backgroundImage="url(BMW_G14_8_1.jpg)";
+                model.innerHTML ="BMW G 14";
+                time.innerHTML ="6sec";
+                speed.innerHTML="100 kmph";
+                b.innerHTML="155mph";
+                c.innerHTML="6000 rpm";
+                d.innerHTML="2Cr Rs";
+                e.innerHTML="11.3kmpl";
+        }
+
+
+    </script>
+</body>
+</html>

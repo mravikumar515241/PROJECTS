@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Mountain-Cycle Shop</title>
+<style>
+/* General styles */
+
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+
+h1, h2, h3 {
+ margin: 0;
+}
+
+ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;
+}
+
+/* Header */
+
+header {
+ background-color: #333;
+ color: #fff;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1em;
+}
+
+nav ul {
+ display: flex;
+}
+
+nav li {
+ margin: 0 1em;
+}
+
+nav a {
+ color: #fff;
+}
+
+/* Hero section */
+
+.hero {
+ background-image: url(Moumtain\ Cycles_2.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 400px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.hero-content {
+ background-color: rgba(0, 0, 0, 0.5);
+ color: #fff;
+ border-radius:15px;
+ text-align: center;
+ padding: 2em;
+}
+
+.hero h2 {
+ font-size: 3em;
+ margin-bottom: 1em;
+}
+
+.btn {
+ background-color: #fff;
+ color: #333;
+ padding: 0.5em 2em;
+ border: none;
+ border-radius: 2em;
+ font-size: 1.2em;
+ text-transform: uppercase;
+}
+
+/* Bikes section */
+
+.bikes {
+ background-color: #f5f5f5;
+ padding: 2em;
+}
+
+.bikes h2 {
+ text-align: center;
+ margin-bottom: 2em;
+}
+
+.bike {
+ background-color: #fff;
+ box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+ padding: 1em;
+ margin: 1em;
+ text-align: center;
+ flex-basis: calc(33.33% - 2em);
+}
+
+.bike img {
+ max-width: 100%;
+ margin-bottom: 1em;
+}
+
+/* Accessories section */
+
+.accessories {
+ background-color: #e5e5e5;
+ padding: 2em;
+}
+
+.accessories h2 {
+ text-align: center;
+ margin-bottom: 2em;
+}
+
+.accessory {
+ background-color: #fff;
+ box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.1);
+ padding: 1em;
+ margin: 1em;
+ text-align: center;
+ flex-basis: calc(33.33% - 2em);
+}
+
+.accessory img {
+ max-width: 100%;
+ margin-bottom: 1em;
+}
+
+/* Contact section */
+
+.contact {
+ padding: 2em;
+ text-align: center;
+}
+
+.contact h2 {
+ margin-bottom: 2em;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ max-width: 400px;
+ margin: 0 auto;
+}
+
+form label {
+ display: block;
+ margin-bottom: 0.5em;
+}
+
+form input, form textarea {
+ padding: 0.5em;
+ margin-bottom: 1em;
+ border: none;
+ border-radius: 0.25em;
+ box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+ background-color: #333;
+ color: #fff;
+ border-radius: 2em;
+ padding: 0.5em 2em;
+ font-size: 1.2em;
+ border: none;
+}
+img{
+	 border-radius: 20px;
+	 
+}
+button{
+    height: 40px;
+    width: 90px;
+   background-color: aqua;
+   border-radius: 15px;
+}
+
+form input[type="submit"]:hover
+</style>
+</head>
+<body>
+ <header>
+  <h1>Mountain-Cycle Shop</h1>
+  <nav>
+   <ul>
+    <li id="top"><a href="home.html">Home</a></li>
+    <li><a href="#bikes">Bikes</a></li>
+    <li><a href="#accessories">Accessories</a></li>
+   </ul>
+  </nav>
+ </header>
+
+ <main>
+  <section class="hero">
+   <div class="hero-content">
+    <h2>Ride into the Future with Mountain-Cycles</h2>
+    <p>Experience the thrill of Mountain cycling with our range of high-performance Mountain-Bikes.</p>
+ <!--   <a href="#" class="btn">Shop Now</a> -->
+   </div>
+  </section>
+
+  <section class="bikes">
+   <h2 id="bikes">Our Bikes</h2>
+   <div class="bikes-container">
+    <div class="bike">
+     <img src="Mountain_Cycle_1.jpg" alt="Mountain_cycles_1" width=370px; height=290px>
+     <h3>
+Urban Terrain UT1000</h3>
+     <p>Price: ₹10,999 (incl GST)<br><br>
+	<b>FEATURES</b><br><br>
+	<ul style="list-style-type:disc;">
+	<li>Aluminium Alloy Frame</li><br>
+
+	<li>Comfart for Hill Cilimbing</li><br>
+
+	<li>5-Level Power Assist</li><br>
+	<li>60mm-travel Suspension</li><br>	
+	<li>	Walk Assist &nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button></li>
+</p>
+	</ul>
+	</p>
+    </div>
+    <div class="bike">
+     <img src="Mountain_Cycle_2.jpg" alt="Firefox Bikes Bad Attitude " width=370px; height=350px >
+     <h3>Firefox Bikes Bad Attitude </h3>
+     <p>Price: ₹5,599 (incl GST)<br><br>
+	<b>FEATURES</b><br><br>
+	<ul style="list-style-type:disc;">
+	<li>Aluminium Alloy Frame</li><br>
+
+	<li>Comfart for Hill Cilimbing</li><br>
+
+	<li>7-Speed Shimano Geas</li><br>
+
+	<li>8-Level Power Assist</li><br>
+	<li> Dual Disk Brakers</li><br>
+     	<li>Detachable Li-ion Battery</li><br>
+	<li>100mm-travel Suspension</li><br>	
+	<li>	Walk Assist &nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button> </li>
+
+</p>
+    </div>
+    <div class="bike">
+     <img src="Mountain_Cycle_3.jpg" alt="Leader Scout MTB 26T Mountain Bicycle"  width=370px; height=330px>
+     <h3>Leader Scout MTB 26T Mountain Bicycle</h3>
+     <p>Price: ₹4,499 (incl GST)<br><br>
+	<b>FEATURES</b><br><br>
+	<ul style="list-style-type:disc;">
+	<li>Aluminium Alloy Frame</li><br>
+
+	<li>Comfart for Hill Cilimbing</li><br>
+
+	<li>7-Speed Shimano Geas</li><br>
+
+	<li>5-Level Power Assist</li><br>
+
+     	<li> Goode for riding&nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button></li></p>
+	</ul>
+    </div>
+   </div>
+  </section>
+
+  <section class="accessories">
+   <h2 id="accessories">Accessories</h2>
+   <div class="accessories-container">
+    <div class="accessory">
+     <img src="Helmet1.jpg" alt="Helmet" width=270px height=250px >
+     <h3>Bike Helmet</h3>
+     <p>Price: ₹1,000 
+<br><br>
+<b> Features:</b><br>
+<ul style="list-style-type:disc;">
+
+<li>Downhill certified ASTM polymer shell in three sizes</li><br>
+
+   <li> Stainless steel mesh vents</li><br>
+
+    <li>360 degree Turbine Technology</li><br>
+
+   <li> Reduced peak brain acceleration by up to 30% at impact speeds associated with concussion</li><br>
+
+  <li>High quality inner liner for all comfort in hot and cool weather climates</li><br>
+
+    <li>Great ventilation &nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button></li><br>
+</ul>
+ </p>
+    </div>
+    <div class="accessory">
+     <img src="E_lock.jpg" alt="E_Lock"  width=300px height=250px >
+     <h3>Bike Lock</h3>
+     <p>Price: ₹ 9053<br><br>
+	<ul>
+	<li> 	ELinkSmart </li><br>
+	<li>  1.5 M stainless steel cable, Weatherproof,Fingerprint </li><br>
+	<li> 	Stainless Steel &nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button> </li>
+	</ul>
+	</p>
+    </div>
+    <div class="accessory">
+     <img src="E_bottle.jpg" alt="Bottle" width=300px height=250px>
+     <h3>Bike Water Bottle</h3>
+     <p>Price: ₹ 166 <br><br>
+	<ul>
+	<li> Nivia Brand</li><br>
+	<li> Plastic Material </li><br>
+	<li> 740 Milliliters  &nbsp; &nbsp;<button><a href="#top"><b>Top</b></a></button></li><br>
+</ul>
+	</p>
+    </div>
+   </div>
+  </section>
+
+ <!-- <section class="contact">
+   <h2 id="contact">Contact Us</h2>
+   <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Send">
+   </form>
+  </section>-->
+ </main>
+
+ <footer>
